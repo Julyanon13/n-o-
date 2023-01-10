@@ -1,0 +1,15 @@
+-- Cria uma função para exibir o anúncio
+function displayAnnouncement(1)
+  -- Exibe o anúncio na tela
+  print("Anúncio: Visite nossa loja online para obter descontos exclusivos!")
+end
+
+-- Define o intervalo de tempo em que o anúncio será exibido (em segundos)
+local interval = 6
+
+-- Executa a função de anúncio a cada intervalo de tempo
+while true do
+  displayAnnouncement(1)
+  -- Pausa o script por um intervalo de tempo especificado
+  sleep(interval)
+end
